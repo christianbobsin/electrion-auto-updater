@@ -5,7 +5,13 @@
   "main": "main.js",
   "scripts": {
     "test": "echo \"Error: no test specified\" && exit 1",
-    "start": "electron ."
+    "start": "electron .",
+    "build": "electron-builder build  --win --publish never",
+    "deploy": "electron-builder build  --win --publish always"
+  },
+  "repository": {
+    "type": "git",
+    "url": "https://github.com/christianbobsin/electrion-auto-updater.git"
   },
   "author": "Christian Bobsin",
   "license": "MIT",
