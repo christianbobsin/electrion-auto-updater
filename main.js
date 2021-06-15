@@ -1,6 +1,8 @@
 const { app, BrowserWindow, ipcMain } = require("electron");
 const { autoUpdater } = require("electron-updater");
 
+console.log("Inicio");
+
 let mainWindow;
 
 function createWindow() {
